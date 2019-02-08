@@ -7,6 +7,10 @@ function handler(req, res) {
         res.writeHead(200, {'Content-type':'text/plain'});
         res.write('Hello, I am a webserver !');
         res.end();
+    }else if (parsedUrl.pathname === '/time'){
+        res.writeHead(200, {'Content-type': 'text/plain'});
+        res.write(new Date().toString());
+        return res.end();
     }else {
         res.writeHead(404, {'Content-type':'text/plain'});
         res.end();
@@ -15,6 +19,7 @@ function handler(req, res) {
 
 
 }
+
 
 const server = http.createServer(handler);
 
