@@ -1,0 +1,22 @@
+{
+  "name": "node.js-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "purenodeserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officialrahulmandal/Node.js-Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/officialrahulmandal/Node.js-Web-App/issues"
+  },
+  "homepage": "https://github.com/officialrahulmandal/Node.js-Web-App#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
